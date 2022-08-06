@@ -1,0 +1,35 @@
+.hero-image{
+    width: 100%;
+    height: 25rem
+} 
+#main-container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1rem;
+    background-color: #161a1d;
+    border: .5em solid #0b090a;
+}
+article{
+    font-family: 'Chivo', sans-serif;
+    letter-spacing: .5px;
+    padding: .5em;
+    margin: 1em;
+    box-shadow:  -5px 5px 5px #0b090a;
+    border: 6px solid #0b090a;
+    border-radius: 5%;
+    text-align: center;
+    max-width: 23rem;
+    color: #f5f3f4;
+}
+.article-image{
+    width: 100%;
+    height: 40%;
+}
+@media screen and (max-width:768px){
+    #main-container{
+        grid-template-columns: 100%;
+    }
+    article{
+        max-width: 700px;
+    }
+}
