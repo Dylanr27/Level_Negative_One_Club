@@ -2,12 +2,18 @@
     width: 100%;
     height: 25rem
 } 
+h2{
+    text-align: center;
+    background-color: #161a1d;
+    color:#f5f3f4;
+    font-size:xx-large;
+    border:0.05em solid #f5f3f4
+}
 #main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     background-color: #161a1d;
-    border: .5em solid #0b090a;
 }
 .grid-col-span-2{
     grid-column: span 2;
