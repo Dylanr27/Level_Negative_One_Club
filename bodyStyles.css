@@ -34,7 +34,7 @@ article{
 article:last-child{
     grid-column-start: 4;
     grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-end: span 2;
 
 }
 @media screen and (max-width:768px){
