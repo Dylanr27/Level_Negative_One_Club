@@ -4,26 +4,38 @@
 } 
 #main-container{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
     background-color: #161a1d;
     border: .5em solid #0b090a;
 }
+.grid-col-span-2{
+    grid-column: span 2;
+}
+
 article{
+    font-size: 0.9em;
     font-family: 'Chivo', sans-serif;
-    letter-spacing: .5px;
+    letter-spacing: .05em;
     padding: .5em;
     margin: 1em;
-    box-shadow:  -5px 5px 5px #0b090a;
-    border: 6px solid #0b090a;
+    box-shadow:  -.5em .5em .5em #0b090a;
+    border: .4em solid #0b090a;
     border-radius: 5%;
     text-align: center;
-    max-width: 23rem;
+    max-width: 46rem;
+    min-width: 14rem;
     color: #f5f3f4;
 }
 .article-image{
     width: 100%;
     height: 40%;
+}
+article:last-child{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
 }
 @media screen and (max-width:768px){
     #main-container{
