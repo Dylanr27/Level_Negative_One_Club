@@ -7,6 +7,8 @@ h2{
     background-color: #161a1d;
     color:#f5f3f4;
     font-size:xx-large;
+    font-weight: 700;
+    font-style: italic;
     border:0.05em solid #f5f3f4
 }
 #main-container{
