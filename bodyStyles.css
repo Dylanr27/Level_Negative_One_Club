@@ -29,7 +29,6 @@ article{
 }
 .article-image{
     width: 100%;
-    height: 40%;
 }
 article:last-child{
     grid-column-start: 4;
