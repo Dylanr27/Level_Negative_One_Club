@@ -6,7 +6,7 @@ const navSlide = ()=> {
     //This toggles the nav bar in mobile mode
     burger.addEventListener('click', ()=>{
         nav.classList.toggle('nav-active');
-        
+
         //This animates the nav-links 
         navLinks.forEach((link, index)=>{
             if(link.style.animation){

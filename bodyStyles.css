@@ -3,7 +3,8 @@ body{
 }
 .hero-image{
     width: 100%;
-    height: 25em;
+    height: auto;
+    margin-bottom: 25px;
 } 
 h2{
     text-align: center;
